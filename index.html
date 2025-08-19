@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TechInnovate Robotics — Links</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Animated Background Layers -->
+    <canvas id="constellation" aria-hidden="true"></canvas>
+    <div class="bg-orbs" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <main class="container">
+      <header class="brand">
+        <div class="logo">
+          <img src="logo.png" alt="TechInnovate Robotics logo" class="logo-img" />
+        </div>
+        <div class="titles">
+          <h1>Techinnovate</h1>
+          <p class="tag">The Robotics Society of BVCOE</p>
+        </div>
+      </header>
+
+
+      <button class="action-button" data-url="https://techinnovate-voluenter-from.vercel.app" data-newtab="true">
+        <span class="icon">
+          <!-- Form/clipboard icon -->
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M9 2h6a2 2 0 0 1 2 2h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2-2Zm0 2v2h6V4H9Zm-2 6h10v2H7v-2Zm0 4h10v2H7v-2Z"/></svg>
+        </span>
+        <span class="text">Registration Form</span>
+      </button>
+
+      <div style="margin-bottom: 20px;"></div>
+
+      <section class="links">
+        <button class="action-button" data-url="https://chat.whatsapp.com/LiQgVVO48MQKq2pVinKXeb?mode=ac_t" data-newtab="true">
+          <span class="icon">
+            <!-- WhatsApp icon -->
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.52 3.48A11.76 11.76 0 0 0 12.01 0C5.4 0 .03 5.37.03 12c0 2.11.56 4.17 1.63 5.98L0 24l6.2-1.61A11.93 11.93 0 0 0 12 24c6.62 0 12-5.37 12-12 0-3.2-1.25-6.21-3.48-8.52ZM12 22a9.95 9.95 0 0 1-5.07-1.39l-.36-.21-3.67.95.98-3.57-.24-.37A9.98 9.98 0 1 1 22 12c0 5.52-4.48 10-10 10Zm5.7-7.46c-.31-.16-1.83-.9-2.11-1-.28-.11-.49-.16-.7.16-.2.31-.8 1-.97 1.2-.18.2-.36.23-.67.08-.31-.16-1.3-.48-2.48-1.53-.92-.82-1.54-1.83-1.72-2.14-.18-.31-.02-.48.14-.64.14-.14.31-.36.46-.54.16-.18.2-.31.31-.52.1-.2.05-.39-.03-.54-.08-.16-.7-1.69-.96-2.31-.25-.61-.5-.53-.7-.54h-.6c-.2 0-.54.08-.82.39-.28.31-1.07 1.05-1.07 2.56 0 1.51 1.1 2.97 1.25 3.17.16.2 2.17 3.31 5.25 4.63.73.31 1.3.49 1.75.62.73.23 1.39.19 1.91.12.58-.09 1.83-.75 2.09-1.48.26-.73.26-1.36.18-1.49-.08-.12-.28-.2-.59-.36Z"/></svg>
+          </span>
+          <span class="text">Join on WhatsApp</span>
+        </button>
+
+        <button class="action-button" data-url="https://www.instagram.com/techinnovatebvcoe?igsh=dzRoc212MW9tajYw" data-newtab="true">
+          <span class="icon">
+            <!-- Instagram icon -->
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7Zm0 2h10c1.66 0 3 1.34 3 3v10c0 1.66-1.34 3-3 3H7c-1.66 0-3-1.34-3-3V7c0-1.66 1.34-3 3-3Zm12 1.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2ZM12 7a5 5 0 1 0 .001 9.999A5 5 0 0 0 12 7Zm0 2a3 3 0 1 1-.001 6.001A3 3 0 0 1 12 9Z"/></svg>
+          </span>
+          <span class="text">Follow on Instagram</span>
+        </button>
+
+        <button class="action-button" data-url="https://www.linkedin.com/company/104160974/admin/dashboard" data-newtab="true">
+          <span class="icon">
+            <!-- LinkedIn icon -->
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 0-.02 5 2.5 2.5 0 0 0 .02-5ZM3 8.98h3.96V21H3V8.98Zm6.48 0H13.2v1.64h.05c.59-1.12 2.02-2.3 4.17-2.3 4.46 0 5.28 2.94 5.28 6.76V21h-3.96v-5.36c0-1.28-.02-2.94-1.8-2.94-1.8 0-2.08 1.4-2.08 2.85V21H9.48V8.98Z"/></svg>
+          </span>
+          <span class="text">Connect on LinkedIn</span>
+        </button>
+
+        <button id="contacts-toggle" class="action-button is-collapsible" aria-expanded="false" aria-controls="contacts-panel">
+          <span class="icon">
+            <!-- Phonebook icon -->
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6 2h9a3 3 0 0 1 3 3v1h2v2h-2v2h2v2h-2v2h2v2h-2v1a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3Zm0 2a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-1H8a2 2 0 0 1-2-2V4Zm6.82 6.18c.35-.35.91-.35 1.26 0l.83.83a1 1 0 0 1 0 1.41l-.45.45c-.25.25-.34.63-.22.97a5.9 5.9 0 0 0 3.53 3.53c.34.12.72.03.97-.22l.45-.45a1 1 0 0 1 1.41 0l.83.83c.35.35.35.91 0 1.26l-.45.45c-.95.95-2.37 1.29-3.64.86-1.53-.52-3.64-1.7-5.37-3.43-1.73-1.73-2.9-3.84-3.43-5.37-.43-1.27-.09-2.69.86-3.64l.45-.45Z"/></svg>
+          </span>
+          <span class="text">Core Team Contacts</span>
+          <span class="chevron" aria-hidden="true"></span>
+        </button>
+        <div id="contacts-panel" class="contacts-panel">
+          <button class="contact-button" data-tel="+917303711030">
+            <span class="who">Anushikha Kumari</span>
+            <span class="role">Chairperson</span>
+            <span class="tel">+91 73037 11030</span>
+          </button>
+          <button class="contact-button" data-tel="+918800225447">
+            <span class="who">Yash Bansal</span>
+            <span class="role">Vice-Chairperson</span>
+            <span class="tel">+91 88002 25447</span>
+          </button>
+          <button class="contact-button" data-tel="+918700633224">
+            <span class="who">Tanishq Gola</span>
+            <span class="role">Vice-Chairperson</span>
+            <span class="tel">+91 87006 33224</span>
+          </button>
+          <button class="contact-button" data-tel="+918527139336">
+            <span class="who">Hitesh Kumar</span>
+            <span class="role">General Secretary</span>
+            <span class="tel">+91 85271 39336</span>
+          </button>
+          <button class="contact-button" data-tel="+919318428319">
+            <span class="who">Jai Khandelwal</span>
+            <span class="role">General Secretary</span>
+            <span class="tel">+91 93184 28319</span>
+          </button>
+          <button class="contact-button" data-tel="+917011598357">
+            <span class="who">Ashish Rajeev</span>
+            <span class="role">Joint Secretary</span>
+            <span class="tel">+91 70115 98357</span>
+          </button>
+          <button class="contact-button" data-tel="+918810302263">
+            <span class="who">Piyush Singh</span>
+            <span class="role">Technical Lead</span>
+            <span class="tel">+91 88103 02263</span>
+          </button>
+          <button class="contact-button" data-tel="+917428558961">
+            <span class="who">Jahnavi Israni</span>
+            <span class="role">Treasurer</span>
+            <span class="tel">+91 74285 58961</span>
+          </button>
+          <button class="contact-button" data-tel="+919315158312">
+            <span class="who">Ritesh Kumar Achal</span>
+            <span class="role">Creative Lead</span>
+            <span class="tel">+91 93151 58312</span>
+          </button>
+          <button class="contact-button" data-tel="+917703959869">
+            <span class="who">Aditya Panwar</span>
+            <span class="role">Creative Lead</span>
+            <span class="tel">+91 77039 59869</span>
+          </button>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>© <span id="year"></span> TechInnovate Robotics Society</p>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+
